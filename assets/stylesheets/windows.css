@@ -1,0 +1,36 @@
+.windowTopBar {
+	background-color: #ededed;
+	height: 25px;
+}
+
+.windowTopBarIcon {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+	background-color: #e74c3c;
+	float: right;
+}
+
+.windowTopBarIconImg {
+	filter: invert(1);
+}
+
+.window {
+	height: 100vh;
+	width: calc(100vw - 80px);
+	background-color: white;
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif !important;
+	z-index: 100;
+}
+
+.windowTopBarTitle {
+	line-height: 25px;
+	padding-left: 20px;
+	color: #828282;
+}
+
+.windowBody {
+	padding-left: 20px;
+	padding-right: 20px;
+}
